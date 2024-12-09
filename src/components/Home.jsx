@@ -1,19 +1,20 @@
-import dashboard from "../../public/illustration-hero.svg";
+import dashboard from "../public/illustration-hero.svg";
 const Home = () => {
   return (
-    <div className="container flex flex-col p-6 lg:flex-row-reverse">
-      <div className="flex justify-center lg:w-1/2">
+    <div className="relative container flex flex-col p-6 mx-auto lg:flex-row-reverse">
+      <div className="hidden lg:block bg-indigo-500 w-full h-72 top-72 left-2/3 absolute rounded-tl-full rounded-bl-full"></div>
+      <div className="flex justify-center z-10 lg:w-1/2">
         <img src={dashboard} alt="" className="w-full h-full object-contain" />
       </div>
-      <div className="flex flex-col items-center lg:justify-end lg:w-1/2 lg:items-start">
-        <h1 className="text-3xl font-bold text-center lg:text-6xl lg:text-left">
+      <div className="flex flex-col items-center z-10 gap-10 lg:justify-start lg:w-1/2 lg:items-start">
+        <h1 className="text-3xl font-bold text-center lg:text-6xl lg:text-left lg:mt-16">
           A Simple Bookmark Manager
         </h1>
-        <p className="text-center text-lg font-normal text-slate-400 px-2 lg:text-2xl lg:text-left lg:mt-10 lg:w-2/3">
+        <p className="text-center text-lg font-normal text-slate-400 md:w-3/5 lg:text-2xl lg:text-left lg:w-2/3">
           A clean and simple interface to organize your favourite websites. Open
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
-        <div className="flex justify-center gap-x-3 w-full lg:justify-start lg:my-10">
+        <div className="flex justify-center gap-x-3 w-full lg:justify-start">
           <button className="p-4 bg-indigo-500 text-white font-bold rounded">
             Get It On Chrome
           </button>

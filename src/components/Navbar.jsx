@@ -1,4 +1,4 @@
-import bookmarkLogo from "/logo-bookmark.svg";
+import bookmarkLogo from "../public/logo-bookmark.svg";
 import "remixicon/fonts/remixicon.css";
 
 export default function Navbar() {
