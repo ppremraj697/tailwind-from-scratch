@@ -1,3 +1,4 @@
+import FeatureTabs from "./components/FeatureTabs";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import SectionalHeading from "./components/SectionalHeading";
@@ -13,6 +14,7 @@ function App() {
         websites. Your bookmarks sync between your devices so you can access
         them on the go."
       />
+      <FeatureTabs />
     </main>
   );
 }
