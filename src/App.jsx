@@ -5,7 +5,7 @@ import SectionalHeading from "./components/SectionalHeading";
 
 function App() {
   return (
-    <main>
+    <main className="">
       <Navbar />
       <Home />
       <SectionalHeading
@@ -15,6 +15,10 @@ function App() {
         them on the go."
       />
       <FeatureTabs />
+      <SectionalHeading
+        heading="Download the extension"
+        description="We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize."
+      />
     </main>
   );
 }

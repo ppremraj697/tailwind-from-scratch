@@ -2,8 +2,10 @@ import PropTypes from "prop-types";
 
 const SectionalHeading = ({ heading, description }) => {
   return (
-    <div className="container flex flex-col items-center mx-auto mt-14 gap-y-7 px-6">
-      <h1 className="w-full text-center text-4xl font-bold">{heading}</h1>
+    <div className="container flex flex-col items-center mx-auto mt-14 lg:mt-24 gap-y-7 px-6">
+      <h1 className="w-full text-center text-3xl font-bold lg:text-4xl">
+        {heading}
+      </h1>
       <p className="w-full text-center text-base text-slate-400 sm:w-2/3 lg:w-1/2 xl:w-2/5">
         {description}
       </p>
