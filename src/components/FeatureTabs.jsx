@@ -50,14 +50,14 @@ const FeatureTabs = () => {
             activeTabName === "simple-bookmarking" ? "block" : "hidden"
           }`}
         >
-          <div className="md:w-1/2 md:h-96">
-            <img className="w-full h-full object-contain" src={tab1} alt="" />
+          <div className="md:w-1/2">
+            <img className="" src={tab1} alt="" />
           </div>
           <div className="flex flex-col gap-8 items-center md:w-1/2 md:items-start">
-            <h2 className="w-full text-center text-3xl font-bold sm:text-left">
+            <h2 className="w-full text-center text-3xl font-bold md:text-left">
               Bookmark in one click
             </h2>
-            <p className="w-full text-center text-base text-slate-400 lg:w-3/5 sm:text-left">
+            <p className="w-full text-center text-base text-slate-400 lg:w-3/5 md:text-left">
               Organize your bookmarks however you like. Our simple drag-and-drop
               interface gives you complete control over how you manage your
               favourite sites.
@@ -72,14 +72,14 @@ const FeatureTabs = () => {
             activeTabName === "speedy-searching" ? "block" : "hidden"
           }`}
         >
-          <div className="md:w-1/2 md:h-96">
-            <img className="w-full h-full object-contain" src={tab2} alt="" />
+          <div className="md:w-1/2">
+            <img className="" src={tab2} alt="" />
           </div>
           <div className="flex flex-col gap-8 items-center md:w-1/2 md:items-start">
-            <h2 className="w-full text-center text-3xl font-bold sm:text-left">
+            <h2 className="w-full text-center text-3xl font-bold md:text-left">
               Intelligent search
             </h2>
-            <p className="w-full text-center text-base text-slate-400 lg:w-3/5 sm:text-left">
+            <p className="w-full text-center text-base text-slate-400 lg:w-3/5 md:text-left">
               Our powerful search feature will help you find saved sites in no
               time at all. No need to trawl through all of your bookmarks.
             </p>
@@ -93,14 +93,14 @@ const FeatureTabs = () => {
             activeTabName === "easy-sharing" ? "block" : "hidden"
           }`}
         >
-          <div className="md:w-1/2 md:h-96">
-            <img className="w-full h-full object-contain" src={tab3} alt="" />
+          <div className="md:w-1/2">
+            <img className="" src={tab3} alt="" />
           </div>
           <div className="flex flex-col gap-8 items-center md:w-1/2 md:items-start">
-            <h2 className="w-full text-center text-3xl font-bold sm:text-left">
+            <h2 className="w-full text-center text-3xl font-bold md:text-left">
               Share your bookmarks
             </h2>
-            <p className="w-full text-center text-base text-slate-400 lg:w-3/5 sm:text-left">
+            <p className="w-full text-center text-base text-slate-400 lg:w-3/5 md:text-left">
               Easily share your bookmarks and collections with others. Create a
               shareable a link that you can send at the click of a button.
             </p>

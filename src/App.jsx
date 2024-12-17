@@ -1,3 +1,4 @@
+import CardContainer from "./components/CardContainer";
 import FeatureTabs from "./components/FeatureTabs";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -19,6 +20,7 @@ function App() {
         heading="Download the extension"
         description="We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize."
       />
+      <CardContainer />
     </main>
   );
 }
