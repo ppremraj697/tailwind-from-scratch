@@ -6,6 +6,7 @@ export default {
       colors: {
         softRed: "#FA5757",
         softBlue: "#5368DF",
+        footer:"#252B46"
       },
     },
   },

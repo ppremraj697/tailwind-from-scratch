@@ -9,10 +9,10 @@ const CardContainer = () => {
       <div className="md:w-1/3">
         <Card src={chrome} name="Chrome" version="62" />
       </div>
-      <div className="md:pt-6 md:w-1/3">
+      <div className="md:pt-4 md:w-1/3">
         <Card src={firefox} name="Firefox" version="55" />
       </div>
-      <div className="md:pt-12 md:w-1/3">
+      <div className="md:pt-8 md:w-1/3">
         <Card src={opera} name="Opera" version="46" />
       </div>
     </div>
