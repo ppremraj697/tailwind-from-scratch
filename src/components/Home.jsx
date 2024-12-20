@@ -2,7 +2,7 @@ import dashboard from "../public/illustration-hero.svg";
 const Home = () => {
   return (
     <div className="relative container flex flex-col p-6 mx-auto lg:flex-row-reverse">
-      <div className="hidden lg:block bg-indigo-500 w-full h-72 top-72 left-2/3 absolute rounded-tl-full rounded-bl-full" />
+      <div className="hidden lg:block bg-softBlue w-full h-72 top-72 left-2/3 absolute rounded-tl-full rounded-bl-full" />
       <div className="flex justify-center z-10 lg:w-1/2">
         <img src={dashboard} alt="" className="w-full h-full object-contain" />
       </div>
@@ -15,7 +15,7 @@ const Home = () => {
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
         <div className="flex justify-center gap-x-3 w-full lg:justify-start">
-          <button className="p-4 bg-indigo-500 text-white font-bold rounded hover:bg-white hover:text-indigo-500 hover:border-indigo-500 border-transparent border-solid border-2">
+          <button className="p-4 bg-softBlue text-white font-bold rounded hover:bg-white hover:text-softBlue hover:border-softBlue border-transparent border-solid border-2">
             Get It On Chrome
           </button>
           <button className="p-4 bg-slate-300 text-black font-bold rounded hover:bg-white hover:text-slate-600 hover:border-slate-300 border-transparent border-solid border-2">

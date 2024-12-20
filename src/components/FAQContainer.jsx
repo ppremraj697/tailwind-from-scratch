@@ -2,7 +2,7 @@ import FAQ from "./FAQ";
 
 const FAQContainer = () => {
   return (
-    <div className="container px-6 mt-14">
+    <div className="container px-6 mt-14 mx-auto">
       <div className="max-w-2xl mx-auto">
         <FAQ
           question="What is Bookmark?"

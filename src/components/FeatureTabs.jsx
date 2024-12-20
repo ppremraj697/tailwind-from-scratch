@@ -62,7 +62,7 @@ const FeatureTabs = () => {
               interface gives you complete control over how you manage your
               favourite sites.
             </p>
-            <button className="px-8 py-3 bg-indigo-500 text-white font-bold rounded border-solid border-transparent hover:bg-white hover:text-indigo-500 hover:border-indigo-500 border-2">
+            <button className="px-8 py-3 bg-softBlue text-white font-bold rounded border-solid border-transparent hover:bg-white hover:text-softBlue hover:border-softBlue border-2">
               More Info
             </button>
           </div>
@@ -83,7 +83,7 @@ const FeatureTabs = () => {
               Our powerful search feature will help you find saved sites in no
               time at all. No need to trawl through all of your bookmarks.
             </p>
-            <button className="px-8 py-3 bg-indigo-500 text-white font-bold rounded border-solid border-transparent hover:bg-white hover:text-indigo-500 hover:border-indigo-500 border-2">
+            <button className="px-8 py-3 bg-softBlue text-white font-bold rounded border-solid border-transparent hover:bg-white hover:text-softBlue hover:border-softBlue border-2">
               More Info
             </button>
           </div>
@@ -104,13 +104,13 @@ const FeatureTabs = () => {
               Easily share your bookmarks and collections with others. Create a
               shareable a link that you can send at the click of a button.
             </p>
-            <button className="px-8 py-3 bg-indigo-500 text-white font-bold rounded border-solid border-transparent hover:bg-white hover:text-indigo-500 hover:border-indigo-500 border-2">
+            <button className="px-8 py-3 bg-softBlue text-white font-bold rounded border-solid border-transparent hover:bg-white hover:text-softBlue hover:border-softBlue border-2">
               More Info
             </button>
           </div>
         </div>
       </div>
-      <div className="hidden lg:block bg-indigo-500 w-full h-72 top-64 right-2/3 absolute rounded-tr-full rounded-br-full" />
+      <div className="hidden lg:block bg-softBlue w-full h-72 top-64 right-2/3 absolute rounded-tr-full rounded-br-full" />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Card = ({ src, name, version }) => {
         Minimum Version {version}
       </p>
       <div className="pt-6 px-6 w-full border-t-[6px] border-dotted border-slate-300">
-        <button className="w-full py-3 bg-indigo-500 text-white font-semibold rounded border-solid border-transparent hover:bg-white hover:text-indigo-500 hover:border-indigo-500 border-2">
+        <button className="w-full py-3 bg-softBlue text-white font-semibold rounded border-solid border-transparent hover:bg-white hover:text-softBlue hover:border-softBlue border-2">
           Add & Install Extension
         </button>
       </div>
