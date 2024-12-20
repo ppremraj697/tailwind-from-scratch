@@ -8,13 +8,13 @@ export default function Navbar() {
         <img src={bookmarkLogo} alt="app-logo" className="" />
         <div className="flex items-center gap-x-10 font-semibold text-slate-400">
           <i className="ri-menu-3-fill font-semibold text-2xl md:hidden" />
-          <a href="#" className="hidden md:block hover:text-softRed">
+          <a href="#features" className="hidden md:block hover:text-softRed">
             FEATURES
           </a>
-          <a href="#" className="hidden md:block hover:text-softRed">
+          <a href="#downloads" className="hidden md:block hover:text-softRed">
             DOWNLOAD
           </a>
-          <a href="#" className="hidden md:block hover:text-softRed">
+          <a href="#faq" className="hidden md:block hover:text-softRed">
             FAQ
           </a>
           <a

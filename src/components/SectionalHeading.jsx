@@ -1,8 +1,11 @@
 import PropTypes from "prop-types";
 
-const SectionalHeading = ({ heading, description }) => {
+const SectionalHeading = ({ heading, description, id }) => {
   return (
-    <div className="container flex flex-col items-center mx-auto mt-14 lg:mt-24 gap-y-7 px-6">
+    <div
+      className="container flex flex-col items-center mx-auto mt-14 lg:mt-24 gap-y-7 px-6"
+      id={id}
+    >
       <h1 className="w-full text-center text-3xl font-bold lg:text-4xl">
         {heading}
       </h1>
@@ -16,6 +19,7 @@ const SectionalHeading = ({ heading, description }) => {
 SectionalHeading.propTypes = {
   heading: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default SectionalHeading;
